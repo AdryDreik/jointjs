@@ -5,7 +5,7 @@ const graph = new joint.dia.Graph;
 
 // Creando el lienzo donde se graficara el elemento
 const paper = new joint.dia.Paper({
-    el: $('#canvas'),
+    el: $('#svg'),
     width: window.screen.width,
     height: window.screen.height,
     model: graph,
